@@ -1,0 +1,102 @@
+﻿<behavior name="GetEventLog" type="CMADeviceOperation<GetEventLog>" inherited="true">
+    <!--change the type from keyed to a specific data type to apply this behavior globaly-->
+    <roles>
+        <role name="any" />
+    </roles>
+    <dependencies>
+        <dependency name="ciresonLocalizationService" />
+        <dependency name="ciresonODataContext" />
+        <dependency name="$stateParams" />
+        <dependency name="localizeFilter" />
+        <dependency name="$timeout" />
+        <dependency name="ciresonFormService" />
+        <dependency name="ciresonDialogService" />
+    </dependencies>
+    <bootstrap>
+        <!--<script type="text/javascript" event="bootstrap" name="bootStrapSetting">
+            //Add expressions here that resolve to a promise
+            //the promise will be resolved before the attach event, and the results
+            //will be available as: bootstrap.{name} within the attach and detach events
+            //you can add as many bootstrap event blocks as you want, and they will
+            //all resolve in parallel before the attach is called.
+            //Example:
+            //
+            //ciresonODataContext.GetCultures().toArray()
+                    
+        </script>-->
+    </bootstrap>
+    <resolve>
+        <script event="resolve">
+            //function (query) {
+            // return expressions to help resolve the model, example:
+            //    return query.include('PropertyName').include('AnotherPropertyName.SubPropertyName');
+            //}
+        </script>
+    </resolve>
+    <script event="init">
+
+        // Create data for LogName dropdown with available logs
+        model.availableLogs = [
+            "Application",
+            "HardwareEvents",
+            "Internet Explorer",
+            "Key Management Service",
+            "OAlerts",
+            "Security",
+            "System",
+            "Windows Azure",
+            "Windows PowerShell"
+        ];
+
+        // Enable action only if device is currently online
+        model.canExecute = function(model) {
+            return model.isOnline;
+        };
+
+        // Open slide out dialog with form
+        model.onExecute = function () {
+            return ciresonDialogService.slideOutDialog(model,
+                {
+                    hideCommitCommand: true,
+                    cancelCommandTitle: "Close",
+                    contentTemplateKey: "GetEventLogForm",
+                    size: 'small'
+                });
+        };
+
+        // Run button behavior
+        model.context.addCommand({
+            name: 'RunScript',
+            group: 'GetEventsLog',
+            canExecute: function () {
+                return model.logName && model.newest;
+            },
+            execute: function () {
+
+                var currentDevice = model.context;
+                return currentDevice.GetEventLog({ LogName: model.logName, Newest: model.newest }).then(function (result) {
+                    debugger;
+                    return ciresonDialogService.slideOutDialog(result, { size: 'large' });
+                });
+            }
+        });
+
+        // Add command to action model to reference in template
+        model.script = model.context.getCommand({ name: "RunScript", group: "GetEventsLog" });
+
+    </Script>
+    <script event="attach">
+        //Add any behavior to the element, scope, or model here.
+        //The attach event executes any time the model is rendered using a <ctd> tag, and a model may be rendered multiple times on the same page
+        //Use the attr object to inspect the attributes supplied to the templated element
+        //Use the bootstrap.{name} to get the values of any bootstrap resolved items.
+    </script>
+    <script event="detach">
+        //detach any pub/sub listeners, and cleanup anything from the attach event
+        //this event is rendered any time a <ctd> is removed from the dom.
+
+        // Remove currently selected parameters on action close
+        model.logName = null;
+        model.newest = null;
+    </script>
+</behavior>

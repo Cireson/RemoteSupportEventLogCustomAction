@@ -1,0 +1,11 @@
+﻿{
+  "UseCustomLogin": false,
+  "UserName": null,
+  "PlatformApiUrl": "http://localhost/api",
+  "AttachProcessName": "w3wp.exe",
+  "RemoteDebug": false,
+  "ComputerName": null,
+  "IsValidationEnabled": false,
+  "AllErrors": [ ],
+  "HasErrors": false
+}

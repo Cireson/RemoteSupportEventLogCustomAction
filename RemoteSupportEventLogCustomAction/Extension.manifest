@@ -1,0 +1,11 @@
+{
+  "PrimaryAssembly": "RemoteSupportEventLogCustomAction.dll",
+  "ContentRootPath": "ContentRoot",
+  "ExtensionName": "RemoteSupportEventLogCustomAction",
+  "Description": null,
+  "Version": "1.0.0.0",
+  "SecondaryAssemblies": [],
+  "ResourcePriority": 0,
+  "IsApplicationPackage": false,
+  "Keywords": []
+}

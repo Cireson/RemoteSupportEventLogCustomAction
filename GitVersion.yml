@@ -1,0 +1,10 @@
+assembly-versioning-scheme: MajorMinorPatchTag
+mode: ContinuousDeployment
+branches:
+  master:
+    increment: Patch
+  integration:
+    increment: Patch
+    tag: RC
+ignore:
+  sha: []

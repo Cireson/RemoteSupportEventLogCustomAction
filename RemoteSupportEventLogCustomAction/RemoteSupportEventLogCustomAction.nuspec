@@ -1,0 +1,112 @@
+<package>
+  <metadata minClientVersion="2.8">
+    <id>RemoteSupportEventLogCustomAction</id>
+    <version>$version$</version>
+    <title>RemoteSupportEventLogCustomAction</title>
+    <authors>Cireson</authors>
+    <owners>Cireson</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RemoteSupportEventLogCustomAction</description>
+    <copyright>Copyright © 2019</copyright>
+    <tags>ciresonCPEX</tags>
+    <dependencies>
+      <dependency version="3.4.1.9004" id="Antlr" />
+      <dependency version="1.0.4.3" id="AppDomainToolkit" />
+      <dependency version="5.6.0-alpha-customacti0203" id="Cireson.ControlCenter.Core" />
+      <dependency version="1.14.79" id="Cireson.Platform.Extension.WebUi" />
+      <dependency version="5.3.3" id="Cireson.Platform.SDK" />
+      <dependency version="1.2.12" id="Cireson.RemoteManage.PlatformServices" />
+      <dependency version="1.3" id="CommonServiceLocator" />
+      <dependency version="6.0.1304.0" id="EnterpriseLibrary.TransientFaultHandling" />
+      <dependency version="6.0.1304.1" id="EnterpriseLibrary.TransientFaultHandling.Data" />
+      <dependency version="6.2.0" id="EntityFramework" />
+      <dependency version="1.4.9.5" id="HtmlAgilityPack" />
+      <dependency version="1.2.5" id="Ix-Async" />
+      <dependency version="1.6.4" id="jQuery" />
+      <dependency version="5.2.7" id="Microsoft.AspNet.Cors" />
+      <dependency version="2.2.1" id="Microsoft.AspNet.Identity.Core" />
+      <dependency version="2.2.1" id="Microsoft.AspNet.Identity.EntityFramework" />
+      <dependency version="5.2.3" id="Microsoft.AspNet.Mvc" />
+      <dependency version="5.11.0" id="Microsoft.AspNet.OData" />
+      <dependency version="3.2.3" id="Microsoft.AspNet.Razor" />
+      <dependency version="2.3.0" id="Microsoft.AspNet.SignalR" />
+      <dependency version="2.3.0" id="Microsoft.AspNet.SignalR.Core" />
+      <dependency version="2.3.0" id="Microsoft.AspNet.SignalR.JS" />
+      <dependency version="2.3.0" id="Microsoft.AspNet.SignalR.SystemWeb" />
+      <dependency version="1.1.3" id="Microsoft.AspNet.Web.Optimization" />
+      <dependency version="5.2.7" id="Microsoft.AspNet.WebApi" />
+      <dependency version="5.2.7" id="Microsoft.AspNet.WebApi.Client" />
+      <dependency version="5.2.7" id="Microsoft.AspNet.WebApi.Core" />
+      <dependency version="5.2.7" id="Microsoft.AspNet.WebApi.Owin" />
+      <dependency version="5.2.7" id="Microsoft.AspNet.WebApi.OwinSelfHost" />
+      <dependency version="5.2.7" id="Microsoft.AspNet.WebApi.WebHost" />
+      <dependency version="3.2.3" id="Microsoft.AspNet.WebPages" />
+      <dependency version="1.1.10" id="Microsoft.Bcl" />
+      <dependency version="1.0.168" id="Microsoft.Bcl.Async" />
+      <dependency version="1.0.21" id="Microsoft.Bcl.Build" />
+      <dependency version="5.8.4" id="Microsoft.Data.Edm" />
+      <dependency version="5.8.4" id="Microsoft.Data.OData" />
+      <dependency version="1.0.0" id="Microsoft.Extensions.DependencyInjection" />
+      <dependency version="1.0.0" id="Microsoft.Extensions.DependencyInjection.Abstractions" />
+      <dependency version="1.1.3" id="Microsoft.IdentityModel.Logging" />
+      <dependency version="1.0.2.206221351" id="Microsoft.IdentityModel.Protocol.Extensions" />
+      <dependency version="5.1.3" id="Microsoft.IdentityModel.Tokens" />
+      <dependency version="1.0.0" id="Microsoft.Management.Infrastructure" />
+      <dependency version="2.2.29" id="Microsoft.Net.Http" />
+      <dependency version="6.19.0" id="Microsoft.OData.Core" />
+      <dependency version="6.19.0" id="Microsoft.OData.Edm" />
+      <dependency version="4.0.1" id="Microsoft.Owin" />
+      <dependency version="3.0.1" id="Microsoft.Owin.FileSystems" />
+      <dependency version="4.0.1" id="Microsoft.Owin.Host.HttpListener" />
+      <dependency version="2.1.0" id="Microsoft.Owin.Host.SystemWeb" />
+      <dependency version="4.0.1" id="Microsoft.Owin.Hosting" />
+      <dependency version="4.0.1" id="Microsoft.Owin.Security" />
+      <dependency version="4.0.1" id="Microsoft.Owin.Security.Cookies" />
+      <dependency version="6.19.0" id="Microsoft.Spatial" />
+      <dependency version="1.0.0.0" id="Microsoft.Web.Infrastructure" />
+      <dependency version="9.0.1" id="Newtonsoft.Json" />
+      <dependency version="1.0" id="Owin" />
+      <dependency version="4.29.0" id="Simple.OData.V4.Client" />
+      <dependency version="4.3.0" id="System.Collections" />
+      <dependency version="4.0.12" id="System.Collections.Concurrent" />
+      <dependency version="1.5.0" id="System.Collections.Immutable" />
+      <dependency version="4.0.1" id="System.ComponentModel" />
+      <dependency version="4.3.0" id="System.Diagnostics.Debug" />
+      <dependency version="4.3.0" id="System.Globalization" />
+      <dependency version="5.1.3" id="System.IdentityModel.Tokens.Jwt" />
+      <dependency version="4.3.0" id="System.Linq" />
+      <dependency version="1.0.7" id="System.Linq.Dynamic" />
+      <dependency version="4.1.0" id="System.Linq.Expressions" />
+      <dependency version="10.0.10586.0" id="System.Management.Automation.dll" />
+      <dependency version="4.3.4" id="System.Net.Http" />
+      <dependency version="4.3.0" id="System.Net.Requests" />
+      <dependency version="4.1.5" id="System.Reactive" />
+      <dependency version="4.3.0" id="System.Reflection" />
+      <dependency version="1.6.0" id="System.Reflection.Metadata" />
+      <dependency version="4.3.0" id="System.Resources.ResourceManager" />
+      <dependency version="4.3.1" id="System.Runtime" />
+      <dependency version="4.5.2" id="System.Runtime.CompilerServices.Unsafe" />
+      <dependency version="4.3.1" id="System.Runtime.Extensions" />
+      <dependency version="4.3.0" id="System.Runtime.Serialization.Primitives" />
+      <dependency version="4.3.0" id="System.Security.Cryptography.Algorithms" />
+      <dependency version="4.3.0" id="System.Security.Cryptography.Encoding" />
+      <dependency version="4.3.0" id="System.Security.Cryptography.Primitives" />
+      <dependency version="4.3.0" id="System.Security.Cryptography.X509Certificates" />
+      <dependency version="5.8.4" id="System.Spatial" />
+      <dependency version="4.3.0" id="System.Threading" />
+      <dependency version="4.0.11" id="System.Threading.Tasks" />
+      <dependency version="4.5.2" id="System.Threading.Tasks.Extensions" />
+      <dependency version="4.5.0" id="System.ValueTuple" />
+      <dependency version="1.0.8" id="T4Scaffolding" />
+      <dependency version="1.0.0" id="T4Scaffolding.Core" />
+      <dependency version="4.0.1" id="Unity" />
+      <dependency version="1.6.0" id="WebGrease" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Extension.Manifest" target="metadata" />
+    <file src="ContentRoot\**" target="ui\ContentRoot" />
+    <file src="bin\$configuration$\RemoteSupportEventLogCustomAction.dll" target="lib\net46" />
+    <file src="bin\$configuration$\RemoteSupportEventLogCustomAction.pdb" target="lib\net46" />
+  </files>
+</package>
