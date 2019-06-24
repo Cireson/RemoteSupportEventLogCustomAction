@@ -4,7 +4,9 @@ Example of a Cireson Remote Support Custom Action to view a device's event logs.
 
 ## How to Install
 
-In order to test this demo extension we need to have installed a Remote Support instance with version: _Remote-Support-5.6.0-alpha-CustomActi0203_. Once you have the Remote Support platform running, we need to make sure we have the Remote Support Operations feature enabled.
+> As of Remote Support version _%%_ we can make use of the Remote Support Operations feature. Make sure to have at least this version installed when uploading the custom extension. 
+
+As a pre-requisite we only need to make sure the Remote Support platform is running and the Remote Support Operations feature set is enabled.
 
 ## Enabling Remote Support Operations Feature
 
