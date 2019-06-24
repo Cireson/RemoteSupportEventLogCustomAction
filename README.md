@@ -19,7 +19,7 @@ In order to test this demo extension we need to have installed a Remote Support 
 2. Open the project as a new instance of Visual Studio.
 3. Build the project.
 4. Upload the project with the Cireson Platform Tools.
-5. Once the upload is complete, go to Settings -> Remote Support Operations.
+5. Once the upload is complete, go to Settings -> Remote Support Actions.
 6. On the 'Name' column filter write 'GetEventLog' and press Enter.
 
 Make sure we see the three actions that were uploaded as part of the custom action extension. One for each type of action (e.g. Remote Action, Quick Action and One Click Action).
