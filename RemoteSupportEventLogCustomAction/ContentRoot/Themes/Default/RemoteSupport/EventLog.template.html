@@ -1,48 +1,19 @@
-﻿<!-- Template for log results container -->
-<datatemplate name="EventsLog" key="any" type="RemoteSupportEventLogCustomAction.actions.eventlogresult">
+﻿<datatemplate name="EventLog" key="any" type="Queryable<RemoteSupportEventLogCustomAction.Actions.EventLogItem>,EntitySet<RemoteSupportEventLogCustomAction.actions.EventLogItem>">
     <template>
-        <div class="slideout-nav__content__form__header cui-mb-2">
-            <div class="slideout-nav__content__notification__header__icon__container">
-                <md-icon md-svg-icon="object-scripts" aria-label="object-scripts" class="slideout-nav__content__form__header__icon cui-ml-3"></md-icon>
-            </div>
-            <div class="cui-ph-2 cui-flexbox--grow1">
-                <div class="md-dialog-title">
-                    {{'Event Log'}}
+        <div class="cui-ph-3 cui-pv-4">
+            <div class="cui-flexbox cui-mb-2">
+                <div class="cui-flexbox--col4">
+                    <ctd template-key="rafiki-filter-control" />
+                </div>
+                <div class="cui-flexbox--col8">
+                    <div class="pager">
+                        <ctd template-key="rafiki-paging-control" />
+                        <ctd model="model.commandGroups.KendoActions" />
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="cui-ph-3 cui-pv-1">
-            <ctd ng-if="model.EventLogItems.length === 0" template-key="NoDataAvailable"/>
-            <ctd ng-if="model.EventLogItems.length > 0" ng-repeat="item in model.EventLogItems" model="item" template-key="LogEventDisplay"/>
-        </div>
-    </template>
-</datatemplate>
-
-<!-- Template for individual log items -->
-<datatemplate key="LogEventDisplay" type="RemoteSupportEventLogCustomAction.actions.eventlogitem">
-    <template>
-        <div class="add-item-to-group__items cui-mb-1">
-            <span class="cui-ml-half">{{model.Index + ' ' + model.Source}}</span>
-            <div class="add-item-to-group__items-added__details cui-p-1">
-                <div>
-                    <span class="caption">Entry Type:{{' ' + model.EntryType}}</span>
-                </div>
-                <div>
-                    <span class="caption">Message: {{' ' + model.Message}}</span>
-                </div>
-            </div>
-        </div>
-    </template>
-</datatemplate>
-
-<!-- This template renders if we get no log results -->
-<datatemplate name="NoDataAvailable" key="NoDataAvailable" type="RemoteSupportEventLogCustomAction.actions.eventlogresult">
-    <template>
-        <div class="cui-p-3">
-            <div class="content__message">
-                <md-icon md-svg-icon="content-reclaimable" aria-label="reclaimable"></md-icon>
-                {{ 'NoLogsAvailable' | localize }}
-            </div>
+            <ctd ng-show="paging.totalItems > 0" template-key="KendoGrid" />
+            <ctd template-key="DataNotFound" display-label="NoLogsAvailable" ng-if="paging.totalItems == 0" />
         </div>
     </template>
 </datatemplate>

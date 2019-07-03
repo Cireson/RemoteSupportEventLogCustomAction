@@ -1,0 +1,103 @@
+﻿<behavior name="EventLog" type="keyed" inherited="Queryable<RemoteSupportEventLogCustomAction.Actions.EventLogItem>,EntitySet<RemoteSupportEventLogCustomAction.Actions.EventLogItem>">
+    <!--change the type from keyed to a specific data type to apply this behavior globaly-->
+    <roles>
+        <role name="any" />
+    </roles>
+    <dependencies>
+        <dependency name="ciresonLocalizationService" />
+        <dependency name="ciresonODataContext" />
+        <dependency name="$stateParams" />
+        <dependency name="localizeFilter" />
+        <dependency name="$timeout" />
+        <dependency name="ciresonFormService" />
+    </dependencies>
+    <bootstrap>
+    </bootstrap>
+    <resolve>
+        <script event="resolve">
+        </script>
+    </resolve>
+    <script event="init">
+        model.kendoGridOptions = {
+            dataSource: {
+                schema: {
+                    model: {
+                        fields: {
+                            Index: { type: "number" },
+                            Source: { type: "string" },
+                            EntryType: { type: "string" }
+                        }
+                    }
+                },
+                sort: { field: "Index", dir: "desc" }
+            },
+            filterable: {
+                mode: "row"
+            },
+            detailInit: detailInit,
+            columns: [
+                {
+                    field: "Index",
+                    title: localizeFilter('Index'),
+                    filterable: {
+                        cell: {
+                            showOperators: false
+                        }
+                    }
+                },
+                {
+                    field: "Source",
+                    title: localizeFilter('Source'),
+                    filterable: {
+                        cell: {
+                            operator: "contains",
+                            suggestionOperator: "contains"
+                        }
+                    }
+                },
+                {
+                    field: "EntryType",
+                    title: localizeFilter('EntryType'),
+                    filterable: {
+                        cell: {
+                            operator: "contains",
+                            suggestionOperator: "contains"
+                        }
+                    }
+                }]
+        };
+
+        function detailInit(e) {
+            $("<div/>").appendTo(e.detailCell).kendoGrid({
+                dataSource: {
+                    data: e.data,
+                    schema: {
+                        model: {
+                            fields: {
+                                Message: { type: "string" }
+                            }
+                        }
+                    }
+                },
+                scrollable: false,
+                columns: [
+                    {
+                        field: "Message",
+                        title: localizeFilter('Message')
+                    }
+                ],
+                sortable: true
+            });
+        }
+    </Script>
+    <script event="attach">
+        //Add any behavior to the element, scope, or model here.
+        //The attach event executes any time the model is rendered using a <ctd> tag, and a model may be rendered multiple times on the same page
+        //Use the attr object to inspect the attributes supplied to the templated element
+        //Use the bootstrap.{name} to get the values of any bootstrap resolved items.
+    </script>
+    <script event="detach">
+        //detach any pub/sub listeners, and cleanup anything from the attach event
+        //this event is rendered any time a <ctd> is removed from the dom.
+    </script>
+</behavior>

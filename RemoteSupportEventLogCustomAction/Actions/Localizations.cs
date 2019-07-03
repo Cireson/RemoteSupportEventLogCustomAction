@@ -36,8 +36,8 @@ namespace RemoteSupportEventLogCustomAction.Actions
                     new Localization { Key = "RCA", Value = "Custom Actions", Description = "Category Title"},
 
                     // Additional localizations
-                    new Localization { Key = "LogName", Value = "-LogName", Description = "Parameter Label"},
-                    new Localization { Key = "Newest", Value = "-Newest", Description = "Parameter Label"},
+                    new Localization { Key = "LogName", Value = "Select a Log", Description = "Parameter Label"},
+                    new Localization { Key = "Newest", Value = "Number of Entries", Description = "Parameter Label"},
                     new Localization { Key = "Run", Value = "Run", Description = "Button Text"},
                     new Localization { Key = "NoLogsAvailable", Value = "There are no available logs to display.", Description = "Text"},
             };

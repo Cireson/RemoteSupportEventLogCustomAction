@@ -67,7 +67,7 @@
         // Run button behavior
         model.context.addCommand({
             name: 'RunScript',
-            group: 'GetEventsLog',
+            group: 'GetEventLog',
             canExecute: function () {
                 return model.logName && model.newest;
             },
@@ -75,14 +75,13 @@
 
                 var currentDevice = model.context;
                 return currentDevice.GetEventLog({ LogName: model.logName, Newest: model.newest }).then(function (result) {
-                    debugger;
                     return ciresonDialogService.slideOutDialog(result, { size: 'large' });
                 });
             }
         });
 
         // Add command to action model to reference in template
-        model.script = model.context.getCommand({ name: "RunScript", group: "GetEventsLog" });
+        model.script = model.context.getCommand({ name: "RunScript", group: "GetEventLog" });
 
     </Script>
     <script event="attach">
