@@ -50,7 +50,7 @@
 
         // Enable action only if device is currently online
         model.canExecute = function(model) {
-            return model.isOnline;
+            return true;
         };
 
         // Open slide out dialog with form
@@ -69,14 +69,14 @@
             name: 'RunScript',
             group: 'GetEventLog',
             canExecute: function () {
-                return model.logName && model.newest;
+                return model.logName;
             },
             execute: function () {
 
                 var currentDevice = model.context;
-                return currentDevice.GetEventLog({ LogName: model.logName, Newest: model.newest }).then(function (result) {
-                    return ciresonDialogService.slideOutDialog(result, { size: 'large' });
-                });
+                model.eventLogQueryable =
+                    currentDevice.GetEventLog({ LogName: model.logName });
+                return ciresonDialogService.slideOutDialog(model.eventLogQueryable, { size: 'large' });
             }
         });
 
@@ -96,6 +96,5 @@
 
         // Remove currently selected parameters on action close
         model.logName = null;
-        model.newest = null;
     </script>
 </behavior>

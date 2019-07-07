@@ -1,9 +1,18 @@
-﻿<datatemplate name="EventLog" key="any" type="Queryable<RemoteSupportEventLogCustomAction.Actions.EventLogItem>,EntitySet<RemoteSupportEventLogCustomAction.actions.EventLogItem>">
+﻿<datatemplate name="EventLog" key="any" type="Queryable<RemoteSupportEventLogCustomAction.Actions.EventLogItem>">
     <template>
+        <div class="slideout-nav__content__form__header cui-mb-2">
+            <div class="slideout-nav__content__notification__header__icon__container">
+                <md-icon md-svg-icon="object-scripts" aria-label="object-scripts" class="slideout-nav__content__form__header__icon cui-ml-3"></md-icon>
+            </div>
+            <div class="cui-ph-2 cui-flexbox--grow1">
+                <div class="md-dialog-title">
+                    {{'Event Log'}}
+                </div>
+            </div>
+        </div>
         <div class="cui-ph-3 cui-pv-4">
             <div class="cui-flexbox cui-mb-2">
                 <div class="cui-flexbox--col4">
-                    <ctd template-key="rafiki-filter-control" />
                 </div>
                 <div class="cui-flexbox--col8">
                     <div class="pager">

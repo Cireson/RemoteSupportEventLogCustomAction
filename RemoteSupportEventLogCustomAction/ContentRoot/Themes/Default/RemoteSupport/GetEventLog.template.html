@@ -28,14 +28,7 @@
                     </md-item-template>
                 </md-autocomplete>
             </div>
-            <!-- Number Input Field-->
-            <div class="cui-pv-2">
-                <md-input-container>
-                    <label>{{ 'Newest' | localize }}</label>
-                    <input ng-model="model.newest" type="number" md-autofocus>
-                </md-input-container>
-            </div>
-            <!-- Button -->
+            Button
             <div class="cui-m-3 cui-flexbox cui-flexbox--row-reverse">
                 <md-button class="md-primary cui-mr-0" ng-disabled="!model.script.canExecute()" ng-click="model.script.execute()">
                     {{::'Run' | localize}}

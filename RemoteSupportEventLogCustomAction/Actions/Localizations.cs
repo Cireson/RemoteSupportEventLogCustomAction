@@ -35,10 +35,15 @@ namespace RemoteSupportEventLogCustomAction.Actions
                     // Currently only displayed for Remote Actions
                     new Localization { Key = "RCA", Value = "Custom Actions", Description = "Category Title"},
 
-                    // Additional localizations
+                    // Dialog
                     new Localization { Key = "LogName", Value = "Select a Log", Description = "Parameter Label"},
-                    new Localization { Key = "Newest", Value = "Number of Entries", Description = "Parameter Label"},
                     new Localization { Key = "Run", Value = "Run", Description = "Button Text"},
+                    
+                    // Grid
+                    new Localization { Key = "Index", Value = "Index", Description = "Column Name"},
+                    new Localization { Key = "Source", Value = "Source", Description = "Column Name"},
+                    new Localization { Key = "EntryType", Value = "Entry Type", Description = "Column Name"},
+                    new Localization { Key = "Message", Value = "Message", Description = "Column Name"},
                     new Localization { Key = "NoLogsAvailable", Value = "There are no available logs to display.", Description = "Text"},
             };
 

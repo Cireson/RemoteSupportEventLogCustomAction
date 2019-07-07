@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using System.Threading.Tasks;
 using System.Linq;
-using Cireson.ControlCenter.Core.Actions.Base;
-using Cireson.ControlCenter.Core.RsOperations.Attributes;
-using Cireson.Core.Common.Attributes;
+using System.Threading.Tasks;
 using Cireson.ControlCenter.Core.Models.ConfigurationManager;
+using Cireson.ControlCenter.Core.RsOperations.Attributes;
+using Cireson.Core.Services.Actions;
+using Cireson.Core.Common.Attributes;
 using Cireson.RemoteManage.PlatformServices.Adapter.Interfaces;
 using Newtonsoft.Json;
 
@@ -15,7 +15,7 @@ namespace RemoteSupportEventLogCustomAction.Actions
     /// </summary>
     /// <typeparam name="TEntity">The entity type to perform the bound action on.</typeparam>
     /// <example>
-    /// POST http://localhost/api/{EntitySet}({EntityId)/Action.GetEventsLog
+    /// POST http://localhost/api/{EntitySet}({EntityId)/Action.GetEventLog
     /// </example>
     /// <RsOperation>
     /// This attribute indicates where the custom action is going to be placed.
@@ -36,12 +36,11 @@ namespace RemoteSupportEventLogCustomAction.Actions
     [RsOperation(RsOperationAttribute.ActionTypes.Remote, "GetEventLog", "Cireson.ControlCenter.Core.Models.ConfigurationManager.CmDevice", 1, "RCA")]
     [RsOperation(RsOperationAttribute.ActionTypes.Quick, "GetEventLog", "Cireson.ControlCenter.Core.Models.ConfigurationManager.CmDevice", 1, "QA")]
     [RsOperation(RsOperationAttribute.ActionTypes.OneClick, "GetEventLog", "Cireson.ControlCenter.Core.Models.ConfigurationManager.CmDevice", 1, "OCA")]
-    public class GetEventLog<TEntity> : BoundActionLoggingBase<TEntity, EventLogResult> where TEntity : CmDevice
+    public class GetEventLog<TEntity> : BoundFunction<TEntity, IQueryable<EventLogItem>> where TEntity : CmDevice
     {
         private readonly IPsProcessor _psProcessor;
 
         public string LogName { get; set; }
-        public int Newest { get; set; }
 
         public GetEventLog(IPsProcessor psProcessor)
         {
@@ -51,20 +50,14 @@ namespace RemoteSupportEventLogCustomAction.Actions
         /// Asynchronously executes a POST request from an odata client or browser.
         /// </summary>
         /// <returns>Returns the execution result.</returns>
-        public override async Task<EventLogResult> ExecuteAsync()
+        public override async Task<IQueryable<EventLogItem>> ExecuteAsync()
         {
-            var eventLogs = await _psProcessor.ExecutePowershell(Entity.DNSName, $"Get-EventLog -LogName {LogName} -Newest {Newest}");
+            var eventLogs = await _psProcessor.ExecutePowershell(Entity.DNSName, $"Get-EventLog -LogName {LogName} -Newest 1000");
 
-            await ActionLogger.LogActionSuccess(Entity.DNSName, Entity.ResourceId, this, "GetEventLog executed successfully.");
-
-            return new EventLogResult
-            {
-                EventLogItems = eventLogs.PipelineResults
-                    .Select(JsonConvert.DeserializeObject<EventLogItem>).ToList()
-            };
+            return eventLogs.PipelineResults
+                .Select(JsonConvert.DeserializeObject<EventLogItem>).ToList().AsQueryable();
         }
     }
-    
     public class EventLogItem
     {
         public string EventID { get; set; }

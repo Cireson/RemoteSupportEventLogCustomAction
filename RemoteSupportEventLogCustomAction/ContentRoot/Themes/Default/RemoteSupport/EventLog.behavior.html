@@ -1,4 +1,4 @@
-﻿<behavior name="EventLog" type="keyed" inherited="Queryable<RemoteSupportEventLogCustomAction.Actions.EventLogItem>,EntitySet<RemoteSupportEventLogCustomAction.Actions.EventLogItem>">
+﻿<behavior name="EventLog" type="Queryable<RemoteSupportEventLogCustomAction.Actions.EventLogItem>">
     <!--change the type from keyed to a specific data type to apply this behavior globaly-->
     <roles>
         <role name="any" />
@@ -19,6 +19,7 @@
     </resolve>
     <script event="init">
         model.kendoGridOptions = {
+            gridName: 'EventLog',
             dataSource: {
                 schema: {
                     model: {

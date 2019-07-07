@@ -853,6 +853,7 @@
     <Compile Include="Actions\Localizations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="App.config" />
+    <Content Include="ContentRoot\Themes\Default\RemoteSupport\EventLog.behavior.html" />
     <Content Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.4.js" />
     <Content Include="Scripts\jquery-1.6.4.min.js" />
@@ -872,6 +873,7 @@
     <None Include="RemoteSupportEventLogCustomAction.nuspec" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
     <Folder Include="Filters\" />
     <Folder Include="Instrumentation\" />
     <Folder Include="Lifecycle\" />
