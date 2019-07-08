@@ -50,7 +50,7 @@
 
         // Enable action only if device is currently online
         model.canExecute = function(model) {
-            return true;
+            return model.isOnline;
         };
 
         // Open slide out dialog with form
