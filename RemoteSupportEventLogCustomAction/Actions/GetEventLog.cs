@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Cireson.ControlCenter.Core.Models.ConfigurationManager;
 using Cireson.ControlCenter.Core.RsOperations.Attributes;
@@ -58,6 +57,7 @@ namespace RemoteSupportEventLogCustomAction.Actions
                 .Select(JsonConvert.DeserializeObject<EventLogItem>).ToList().AsQueryable();
         }
     }
+
     public class EventLogItem
     {
         public string EventID { get; set; }
@@ -80,6 +80,6 @@ namespace RemoteSupportEventLogCustomAction.Actions
 
     public class EventLogResult
     {
-        public List<EventLogItem> EventLogItems { get; set; }
+        public IQueryable<EventLogItem> EventLogItems { get; set; }
     }
 }

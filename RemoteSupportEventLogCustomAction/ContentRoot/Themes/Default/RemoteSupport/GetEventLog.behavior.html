@@ -72,7 +72,6 @@
                 return model.logName;
             },
             execute: function () {
-
                 var currentDevice = model.context;
                 model.eventLogQueryable =
                     currentDevice.GetEventLog({ LogName: model.logName });
@@ -91,10 +90,7 @@
         //Use the bootstrap.{name} to get the values of any bootstrap resolved items.
     </script>
     <script event="detach">
-        //detach any pub/sub listeners, and cleanup anything from the attach event
-        //this event is rendered any time a <ctd> is removed from the dom.
-
-        // Remove currently selected parameters on action close
+        // Remove currently selected parameter on action close
         model.logName = null;
     </script>
 </behavior>
