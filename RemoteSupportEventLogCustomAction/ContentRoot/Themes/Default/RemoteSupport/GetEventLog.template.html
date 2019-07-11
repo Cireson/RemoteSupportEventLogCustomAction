@@ -18,7 +18,7 @@
                 <label>{{'LogName' | localize}}</label>
                 <md-autocomplete class="md-primary"
                                  md-show-not-found="true"
-                                 md-selected-item="model.logName"
+                                 md-selected-item="model.context.eventLogName"
                                  md-show-arrow="true"
                                  md-delay="500"
                                  md-item-text="log"
@@ -28,7 +28,7 @@
                     </md-item-template>
                 </md-autocomplete>
             </div>
-            <div class="cui-m-3 cui-flexbox cui-flexbox--row-reverse">
+            <div class="cui-m-3 cui-flexbox cui-flexbox--row-reverse"> 
                 <md-button class="md-primary cui-mr-0" ng-disabled="!model.script.canExecute()" ng-click="model.script.execute()">
                     {{::'Run' | localize}}
                 </md-button>

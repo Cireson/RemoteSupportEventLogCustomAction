@@ -69,12 +69,12 @@
             name: 'RunScript',
             group: 'GetEventLog',
             canExecute: function () {
-                return model.logName;
+                return model.context.eventLogName;
             },
             execute: function () {
                 var currentDevice = model.context;
                 model.eventLogQueryable =
-                    currentDevice.GetEventLog({ LogName: model.logName });
+                    currentDevice.GetEventLog({ LogName: currentDevice.eventLogName });
                 return ciresonDialogService.slideOutDialog(model.eventLogQueryable, { size: 'large' });
             }
         });
@@ -91,6 +91,6 @@
     </script>
     <script event="detach">
         // Remove currently selected parameter on action close
-        model.logName = null;
+        model.context.eventLogName = null;
     </script>
 </behavior>
