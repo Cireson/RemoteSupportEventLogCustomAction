@@ -20,7 +20,7 @@ As a pre-requisite we only need to make sure the Remote Support platform is runn
 1. Download or clone the project 'RemoteSupportEventLogCustomAction'.
 2. Open the project as a new instance of Visual Studio.
 3. Build the project.
-4. Upload the project with the Cireson Platform Tools.
+4. Use the VS Dev Tools to upload yout project. (More information here: https://platform.cireson.com/articles/vs-tools.html)
 5. Once the upload is complete, go to Settings -> Remote Support Actions.
 6. On the 'Name' column filter write 'GetEventLog' and press Enter.
 
