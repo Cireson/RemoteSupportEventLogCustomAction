@@ -34,774 +34,755 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AdminUI.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\AdminUI.Common.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\AdminUI.Common.dll</HintPath>
     </Reference>
     <Reference Include="AdminUI.WqlQueryEngine, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\AdminUI.WqlQueryEngine.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\AdminUI.WqlQueryEngine.dll</HintPath>
     </Reference>
     <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Antlr3.Runtime.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="AppDomainToolkit, Version=1.0.4.1, Culture=neutral, PublicKeyToken=f2fc7ab5180cf5c4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\AppDomainToolkit.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\AppDomainToolkit.dll</HintPath>
     </Reference>
     <Reference Include="AutoMapper, Version=5.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\AutoMapper.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\AutoMapper.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.ControlCenter.Core, Version=5.6.0.203, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\Cireson.ControlCenter.Core.dll</HintPath>
+    <Reference Include="Cireson.ControlCenter.Core, Version=5.7.0.931, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\Cireson.ControlCenter.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Core.Common, Version=5.3.3.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Core.Common.dll</HintPath>
+    <Reference Include="Cireson.Core.Common, Version=5.4.0.24, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Core.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Core.DataAccess, Version=5.3.3.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Core.DataAccess.dll</HintPath>
+    <Reference Include="Cireson.Core.DataAccess, Version=5.4.0.24, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Core.DataAccess.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Core.Interfaces, Version=5.3.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Core.Interfaces.dll</HintPath>
+    <Reference Include="Cireson.Core.Interfaces, Version=5.4.0.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Core.Interfaces.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Core.OData, Version=5.3.3.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Core.OData.dll</HintPath>
+    <Reference Include="Cireson.Core.OData, Version=5.4.0.24, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Core.OData.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Core.Repository, Version=5.3.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Core.Repository.dll</HintPath>
+    <Reference Include="Cireson.Core.Repository, Version=5.4.0.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Core.Repository.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Core.Security, Version=5.3.3.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Core.Security.dll</HintPath>
+    <Reference Include="Cireson.Core.Security, Version=5.4.0.24, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Core.Security.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Core.Services, Version=5.3.3.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Core.Services.dll</HintPath>
+    <Reference Include="Cireson.Core.Services, Version=5.4.0.24, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Core.Services.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Core.UICommon, Version=5.3.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Core.UICommon.dll</HintPath>
+    <Reference Include="Cireson.Core.UICommon, Version=5.4.0.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Core.UICommon.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Extension.AppManagement, Version=5.3.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Extension.AppManagement.dll</HintPath>
+    <Reference Include="Cireson.Extension.AppManagement, Version=5.4.0.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Extension.AppManagement.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Extension.Auditing, Version=5.3.3.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Extension.Auditing.dll</HintPath>
+    <Reference Include="Cireson.Extension.Auditing, Version=5.4.0.24, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Extension.Auditing.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Extension.Localizations, Version=5.3.3.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Extension.Localizations.dll</HintPath>
+    <Reference Include="Cireson.Extension.Localizations, Version=5.4.0.24, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Extension.Localizations.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Extension.Search, Version=5.3.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Extension.Search.dll</HintPath>
+    <Reference Include="Cireson.Extension.Search, Version=5.4.0.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Extension.Search.dll</HintPath>
     </Reference>
     <Reference Include="Cireson.HttpResponseCompression.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.HttpResponseCompression.Common.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.HttpResponseCompression.Common.dll</HintPath>
     </Reference>
     <Reference Include="Cireson.HttpResponseCompression.Owin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.HttpResponseCompression.Owin.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.HttpResponseCompression.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Cireson.HttpResponseCompression.WebApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.HttpResponseCompression.WebApi.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.HttpResponseCompression.WebApi.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Platform.Extension.WebUi, Version=1.14.79.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Cireson.Platform.Extension.WebUi.dll</HintPath>
+    <Reference Include="Cireson.Platform.Extension.WebUi, Version=1.15.0.398, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Cireson.Platform.Extension.WebUi.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.Platform.Runtime, Version=5.3.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Cireson.Platform.Runtime.dll</HintPath>
+    <Reference Include="Cireson.Platform.Runtime, Version=5.4.0.24, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Cireson.Platform.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Cireson.RemoteManage.PlatformServices, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.RemoteManage.PlatformServices.1.2.12\lib\net46\Cireson.RemoteManage.PlatformServices.dll</HintPath>
+    <Reference Include="Cireson.RemoteManage.PlatformServices, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.RemoteManage.PlatformServices.1.2.13\lib\net46\Cireson.RemoteManage.PlatformServices.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="FluentScheduler, Version=3.1.46.0, Culture=neutral, PublicKeyToken=b76503528a14ebd1, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\FluentScheduler.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\FluentScheduler.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\HtmlAgilityPack.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\HtmlAgilityPack.dll</HintPath>
     </Reference>
-    <Reference Include="LicenseManagement.Client, Version=1.0.7108.40753, Culture=neutral, PublicKeyToken=98ba2176e2a9efbc, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\LicenseManagement.Client.dll</HintPath>
+    <Reference Include="LicenseManagement.Client, Version=1.0.7128.41612, Culture=neutral, PublicKeyToken=98ba2176e2a9efbc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\LicenseManagement.Client.dll</HintPath>
     </Reference>
     <Reference Include="LinqKit, Version=1.1.7.3, Culture=neutral, PublicKeyToken=bc217f8844052a91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\LinqKit.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\LinqKit.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    <Reference Include="Microsoft.AspNet.SignalR.Core, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.AspNet.SignalR.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis, Version=1.3.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.CodeAnalysis.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.CodeAnalysis.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis.CSharp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ConfigurationManagement.DialogFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\Microsoft.ConfigurationManagement.DialogFramework.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\Microsoft.ConfigurationManagement.DialogFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ConfigurationManagement.ManagementProvider, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\Microsoft.ConfigurationManagement.ManagementProvider.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\Microsoft.ConfigurationManagement.ManagementProvider.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Data.Edm, Version=5.8.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Data.Edm.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Data.Edm.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Data.OData, Version=5.8.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Data.OData.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Data.OData.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Logging, Version=1.1.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\Microsoft.IdentityModel.Logging.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\Microsoft.IdentityModel.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Protocol.Extensions, Version=1.0.2.33, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\Microsoft.IdentityModel.Tokens.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Management.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.RemoteManage.PlatformServices.1.2.12\lib\net46\Microsoft.Management.Infrastructure.dll</HintPath>
+      <HintPath>..\packages\Cireson.RemoteManage.PlatformServices.1.2.13\lib\net46\Microsoft.Management.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Management.Infrastructure.Native, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.RemoteManage.PlatformServices.1.2.12\lib\net46\Microsoft.Management.Infrastructure.Native.dll</HintPath>
+      <HintPath>..\packages\Cireson.RemoteManage.PlatformServices.1.2.13\lib\net46\Microsoft.Management.Infrastructure.Native.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.OData.Core, Version=6.19.0.11114, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.OData.Core.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.OData.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.OData.Edm, Version=6.19.0.11114, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.OData.Edm.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.OData.Edm.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Owin.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Cors, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Owin.Cors.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Owin.Cors.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.FileSystems, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.FileSystems.3.0.1\lib\net45\Microsoft.Owin.FileSystems.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Owin.FileSystems.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Host.HttpListener, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Owin.Host.HttpListener.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Owin.Host.HttpListener.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Hosting, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Owin.Hosting.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Owin.Hosting.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.4.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Owin.Security.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Cookies, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.4.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Owin.Security.Cookies.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.StaticFiles, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Owin.StaticFiles.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Owin.StaticFiles.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Unity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Practices.Unity.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Practices.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Unity.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.Practices.Unity.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Unity.RegistrationByConvention, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.Practices.Unity.RegistrationByConvention.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Unity.WebApi, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Practices.Unity.WebApi.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Practices.Unity.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Spatial, Version=6.19.0.11114, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Spatial.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Spatial.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.Threading.Tasks.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.Threading.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.XmlTransform, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Web.XmlTransform.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Web.XmlTransform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Microsoft.Win32.Primitives.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Microsoft.Win32.Primitives.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MultipartDataMediaFormatter, Version=5.3.3.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\MultipartDataMediaFormatter.dll</HintPath>
+    <Reference Include="MultipartDataMediaFormatter, Version=5.4.0.24, Culture=neutral, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\MultipartDataMediaFormatter.dll</HintPath>
     </Reference>
     <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\netstandard.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\netstandard.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NuGet.Core, Version=2.12.0.817, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\NuGet.Core.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\NuGet.Core.dll</HintPath>
     </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\Owin.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\Owin.dll</HintPath>
     </Reference>
-    <Reference Include="Simple.OData.Client.Core, Version=4.26.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Simple.OData.Client.Core.dll</HintPath>
+    <Reference Include="Simple.OData.Client.Core, Version=4.29.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Simple.OData.Client.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Simple.OData.Client.Dynamic, Version=4.26.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Simple.OData.Client.Dynamic.dll</HintPath>
+    <Reference Include="Simple.OData.Client.Dynamic, Version=4.29.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Simple.OData.Client.Dynamic.dll</HintPath>
     </Reference>
-    <Reference Include="Simple.OData.Client.V4.Adapter, Version=4.26.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\Simple.OData.Client.V4.Adapter.dll</HintPath>
+    <Reference Include="Simple.OData.Client.V4.Adapter, Version=4.29.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\Simple.OData.Client.V4.Adapter.dll</HintPath>
     </Reference>
     <Reference Include="SslCertBinding.Net, Version=1.0.2.0, Culture=neutral, PublicKeyToken=46398e4c25dead31, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\SslCertBinding.Net.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\SslCertBinding.Net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.AppContext, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.AppContext.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.AppContext.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Collections, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Collections.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Collections.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Collections.Concurrent, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Collections.Concurrent.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Collections.Concurrent.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Collections.Immutable.1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Collections.Immutable.dll</HintPath>
     </Reference>
     <Reference Include="System.Collections.NonGeneric, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Collections.NonGeneric.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Collections.NonGeneric.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Collections.Specialized, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Collections.Specialized.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Collections.Specialized.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.ComponentModel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.ComponentModel.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.ComponentModel.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.ComponentModel.EventBasedAsync, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.ComponentModel.EventBasedAsync.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.ComponentModel.Primitives, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.ComponentModel.Primitives.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.ComponentModel.Primitives.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.ComponentModel.TypeConverter, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.ComponentModel.TypeConverter.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.ComponentModel.TypeConverter.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Console, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Console.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Console.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Common, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Data.Common.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Data.Common.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Contracts, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.Contracts.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.Contracts.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Debug, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.Debug.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.Debug.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.FileVersionInfo, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.FileVersionInfo.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Process, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.Process.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.Process.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.StackTrace, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.StackTrace.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.StackTrace.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.TextWriterTraceListener, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Tools, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.Tools.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.Tools.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.TraceSource, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.TraceSource.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.TraceSource.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Diagnostics.Tracing, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Drawing.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Drawing.Primitives.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Drawing.Primitives.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Dynamic.Runtime, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Dynamic.Runtime.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Dynamic.Runtime.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Globalization, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Globalization.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Globalization.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Globalization.Calendars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Globalization.Calendars.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Globalization.Calendars.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Globalization.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Globalization.Extensions.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Globalization.Extensions.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.20622.1351, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.IdentityModel.Tokens.Jwt.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Interactive.Async.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="System.IO, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.Compression, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.Compression.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.Compression.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.Compression.ZipFile, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.Compression.ZipFile.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.Compression.ZipFile.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.FileSystem, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.FileSystem.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.FileSystem.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.FileSystem.DriveInfo, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.FileSystem.DriveInfo.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.FileSystem.DriveInfo.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.FileSystem.Primitives.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.FileSystem.Primitives.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.FileSystem.Watcher, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.FileSystem.Watcher.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.FileSystem.Watcher.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.IsolatedStorage, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.IsolatedStorage.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.IsolatedStorage.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.MemoryMappedFiles, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.MemoryMappedFiles.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.MemoryMappedFiles.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.Pipes, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.Pipes.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.Pipes.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.IO.UnmanagedMemoryStream, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.IO.UnmanagedMemoryStream.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.IO.UnmanagedMemoryStream.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Linq, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Linq.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Linq.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Linq.Dynamic, Version=1.0.6132.35681, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Linq.Dynamic.1.0.7\lib\net40\System.Linq.Dynamic.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Linq.Dynamic.dll</HintPath>
     </Reference>
     <Reference Include="System.Linq.Expressions, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Linq.Expressions.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Linq.Expressions.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Linq.Parallel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Linq.Parallel.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Linq.Parallel.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Linq.Queryable, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Linq.Queryable.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Linq.Queryable.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.RemoteManage.PlatformServices.1.2.12\lib\net46\System.Management.Automation.dll</HintPath>
+      <HintPath>..\packages\Cireson.RemoteManage.PlatformServices.1.2.13\lib\net46\System.Management.Automation.dll</HintPath>
     </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Http.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Http.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Http.Extensions.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Http.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Http.Formatting.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Http.Primitives.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Net.NameResolution, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.NameResolution.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.NameResolution.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.NetworkInformation, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.NetworkInformation.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.NetworkInformation.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Ping, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Ping.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Ping.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Primitives, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Primitives.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Primitives.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Requests, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Requests.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Requests.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Security, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Security.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Security.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Sockets, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.Sockets.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.Sockets.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.WebHeaderCollection, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.WebHeaderCollection.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.WebHeaderCollection.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.WebSockets, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.WebSockets.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.WebSockets.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.WebSockets.Client, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Net.WebSockets.Client.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Net.WebSockets.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.ObjectModel, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.ObjectModel.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.ObjectModel.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Reactive, Version=4.1.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\System.Reactive.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\System.Reactive.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Reflection.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Reflection.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Reflection.Extensions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Reflection.Extensions.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Reflection.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Reflection.Metadata, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Reflection.Metadata.1.6.0\lib\netstandard2.0\System.Reflection.Metadata.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Reflection.Metadata.dll</HintPath>
     </Reference>
     <Reference Include="System.Reflection.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Reflection.Primitives.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Reflection.Primitives.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Resources.Reader, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Resources.Reader.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Resources.Reader.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Resources.ResourceManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Resources.ResourceManager.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Resources.ResourceManager.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Resources.Writer, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Resources.Writer.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Resources.Writer.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+    <Reference Include="System.Runtime, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.VisualC, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.CompilerServices.VisualC.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Extensions, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.Extensions.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Handles, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.Handles.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.Handles.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.InteropServices, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.InteropServices.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.InteropServices.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Numerics, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.Numerics.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.Numerics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Runtime.Serialization.Formatters, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.Serialization.Formatters.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Json, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.Serialization.Json.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.Serialization.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Runtime.Serialization.Primitives, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Runtime.Serialization.Primitives.dll</HintPath>
+    <Reference Include="System.Runtime.Serialization.Primitives, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Runtime.Serialization.Primitives.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.Serialization.Xml, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Runtime.Serialization.Xml.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Runtime.Serialization.Xml.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Security" />
     <Reference Include="System.Security.Claims, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Security.Claims.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Security.Claims.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Algorithms, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Security.Cryptography.Algorithms.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Csp, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Security.Cryptography.Csp.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Security.Cryptography.Csp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Security.Cryptography.Encoding.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Security.Cryptography.Encoding.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Security.Cryptography.Primitives.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Security.Cryptography.Primitives.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Security.Cryptography.X509Certificates.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.Principal, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Security.Principal.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Security.Principal.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.SecureString, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Security.SecureString.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Security.SecureString.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Spatial, Version=5.8.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Spatial.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Spatial.dll</HintPath>
     </Reference>
     <Reference Include="System.Text.Encoding, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Text.Encoding.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Text.Encoding.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Text.Encoding.Extensions, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Text.Encoding.Extensions.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Text.Encoding.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Text.RegularExpressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Text.RegularExpressions.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Text.RegularExpressions.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Threading.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Threading.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.Overlapped, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Threading.Overlapped.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Threading.Overlapped.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.Tasks, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Threading.Tasks.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Threading.Tasks.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.Tasks.Dataflow, Version=4.5.24.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\System.Threading.Tasks.Dataflow.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\System.Threading.Tasks.Dataflow.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.ControlCenter.Core.5.6.0-alpha-customacti0203\lib\net46\System.Threading.Tasks.Extensions.dll</HintPath>
+      <HintPath>..\packages\Cireson.ControlCenter.Core.5.7.0-beta-release0931\lib\net46\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Parallel, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Threading.Tasks.Parallel.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Threading.Tasks.Parallel.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.Thread, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Threading.Thread.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Threading.Thread.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.ThreadPool, Version=4.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Threading.ThreadPool.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Threading.ThreadPool.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Threading.Timer, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Threading.Timer.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Threading.Timer.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Cors, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Web.Cors.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Web.Cors.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Web.Helpers.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Web.Helpers.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Web.Http.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.Owin, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Web.Http.Owin.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Web.Http.Owin.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Web.Http.WebHost.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.OData, Version=5.11.0.10905, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Web.OData.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Web.OData.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Web.Optimization.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Web.Optimization.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Web.Razor.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Web.WebPages.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Web.WebPages.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Web.WebPages.Deployment.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Web.WebPages.Deployment.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\System.Web.WebPages.Razor.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="System.Windows.Forms" />
@@ -811,40 +792,38 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.ReaderWriter, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Xml.ReaderWriter.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Xml.ReaderWriter.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.XDocument, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Xml.XDocument.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Xml.XDocument.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.XmlDocument, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Xml.XmlDocument.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Xml.XmlDocument.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.XmlSerializer, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Xml.XmlSerializer.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Xml.XmlSerializer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.XPath, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Xml.XPath.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Xml.XPath.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.XPath.XDocument, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\System.Xml.XPath.XDocument.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\System.Xml.XPath.XDocument.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.SDK.5.3.3\lib\net462\WebActivatorEx.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.SDK.5.4.0-alpha-3rdpartyse0024\lib\net462\WebActivatorEx.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.14.79\lib\net46\WebGrease.dll</HintPath>
+      <HintPath>..\packages\Cireson.Platform.Extension.WebUi.1.15.0-alpha-operationi0398\lib\net46\WebGrease.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
@@ -854,11 +833,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="App.config" />
     <Content Include="ContentRoot\Themes\Default\RemoteSupport\EventLog.behavior.html" />
-    <Content Include="Scripts\jquery-1.6.4-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.6.4.js" />
-    <Content Include="Scripts\jquery-1.6.4.min.js" />
-    <Content Include="Scripts\jquery.signalR-2.3.0.js" />
-    <Content Include="Scripts\jquery.signalR-2.3.0.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\jquery.signalR-2.4.1.js" />
+    <Content Include="Scripts\jquery.signalR-2.4.1.min.js" />
     <None Include="CiresonDebug.json" />
     <Content Include="ContentRoot\Themes\Default\RemoteSupport\EventLog.template.html" />
     <Content Include="ContentRoot\Themes\Default\RemoteSupport\GetEventLog.behavior.html" />
@@ -871,6 +852,8 @@
     </Content>
     <None Include="packages.config" />
     <None Include="RemoteSupportEventLogCustomAction.nuspec" />
+    <None Include="Scripts\jquery-3.4.1.min.map" />
+    <None Include="Scripts\jquery-3.4.1.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
