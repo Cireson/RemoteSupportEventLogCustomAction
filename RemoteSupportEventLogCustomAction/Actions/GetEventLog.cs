@@ -77,9 +77,4 @@ namespace RemoteSupportEventLogCustomAction.Actions
         public string Container { get; set; }
 
     }
-
-    public class EventLogResult
-    {
-        public IQueryable<EventLogItem> EventLogItems { get; set; }
-    }
 }
