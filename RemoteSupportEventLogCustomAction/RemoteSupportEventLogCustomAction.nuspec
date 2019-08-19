@@ -12,10 +12,10 @@
     <dependencies>
       <dependency version="3.4.1.9004" id="Antlr" />
       <dependency version="1.0.4.3" id="AppDomainToolkit" />
-      <dependency version="5.7.0-beta-release0931" id="Cireson.ControlCenter.Core" />
+      <dependency version="5.7.0" id="Cireson.ControlCenter.Core" />
       <dependency version="1.15.0-alpha-operationi0398" id="Cireson.Platform.Extension.WebUi" />
       <dependency version="5.4.0-alpha-3rdpartyse0024" id="Cireson.Platform.SDK" />
-      <dependency version="1.2.13" id="Cireson.RemoteManage.PlatformServices" />
+      <dependency version="1.2.14" id="Cireson.RemoteManage.PlatformServices" />
       <dependency version="1.3" id="CommonServiceLocator" />
       <dependency version="6.0.1304.0" id="EnterpriseLibrary.TransientFaultHandling" />
       <dependency version="6.0.1304.1" id="EnterpriseLibrary.TransientFaultHandling.Data" />
@@ -62,8 +62,10 @@
       <dependency version="4.0.1" id="Microsoft.Owin.Hosting" />
       <dependency version="4.0.1" id="Microsoft.Owin.Security" />
       <dependency version="4.0.1" id="Microsoft.Owin.Security.Cookies" />
+      <dependency version="6.0.1304.0" id="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ServiceBus" />
       <dependency version="6.19.0" id="Microsoft.Spatial" />
       <dependency version="1.0.0.0" id="Microsoft.Web.Infrastructure" />
+      <dependency version="1.7.0.0" id="Microsoft.WindowsAzure.ConfigurationManager" />
       <dependency version="12.0.2" id="Newtonsoft.Json" />
       <dependency version="1.0" id="Owin" />
       <dependency version="4.29.0" id="Simple.OData.V4.Client" />
@@ -101,6 +103,7 @@
       <dependency version="1.0.0" id="T4Scaffolding.Core" />
       <dependency version="4.0.1" id="Unity" />
       <dependency version="1.6.0" id="WebGrease" />
+      <dependency version="1.8.0.0" id="WindowsAzure.ServiceBus" />
     </dependencies>
   </metadata>
   <files>
